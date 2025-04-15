@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAMALA PAVAN | AI & ML Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>SAMALA PAVAN</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Hello, I'm SAMALA PAVAN 👋</h2>
+      <p>AI & ML Enthusiast | Computer Science Student | Problem Solver</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        A detail-oriented Computer Science student specializing in AI & ML, seeking internships to gain practical experience. Strong analytical, communication, and problem-solving skills with a passion for innovation.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>Web Technologies</li>
+        <li>DBMS</li>
+        <li>Communication</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>University Management System</h3>
+        <p>Developed a programming extension for university operations. <br/><strong>Duration:</strong> Oct 2024 – Nov 2024</p>
+      </div>
+
+      <div class="project">
+        <h3>Academic Transcript Website</h3>
+        <p>Created a secure platform for managing academic records. <br/><strong>Duration:</strong> May 2024 – June 2024</p>
+      </div>
+
+      <div class="project">
+        <h3>Expense Tracker</h3>
+        <p>Designed a web app to manage expenses and income with basic analytics and category-wise filtering. <br/><strong>Duration:</strong> Jan 2025 – Mar 2025</p>
+      </div>
+
+      <div class="project">
+        <h3>Swift Estates</h3>
+        <p>Developed a web application for managing real estate properties. <br/><strong>Duration:</strong> March 2025 – April 2025</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Internship – Technotran Company</h3>
+        <p><strong>Duration:</strong> May 2024 – June 2024</p>
+        <ul>
+          <li>Strengthened programming skills by contributing to real-world projects.</li>
+          <li>Gained hands-on experience in agile development environments.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li>NPTEL – Foundation of Cloud IoT with Edge ML</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p><strong>B.Tech in AI & ML</strong> – Anil Neerukonda Institute of Technology and Sciences – 7.0 GPA</p>
+      <p><strong>Class XII (SSC)</strong> – 87%</p>
+      <p><strong>Class X (SSC)</strong> – 95%</p>
+    </div>
+  </section>
+
+  <section id="languages">
+    <div class="container">
+      <h2>Languages Known</h2>
+      <p>English | Telugu | Hindi</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>You can reach me at: <a href="mailto:pavan@example.com">pavan@example.com</a></p>
+    </div>
+  </section>
+  <script>
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    </script>
+</body>
+</html>
